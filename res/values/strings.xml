@@ -1,0 +1,12 @@
+<resources>
+
+    <string name="app_name">LaAficionManda</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_launcher">Aficion Manda</string>
+    
+    <string name="default_empty_message">Sin Información</string>
+    
+    <string name="sync_url">http://www.aficionmanda.com/larcia/helloto/</string>
+
+</resources>

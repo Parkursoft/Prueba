@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="actionbar" type="id"/>
+    <item name="actionbar_back" type="id"/>
+    <item name="actionbar_home" type="id"/>
+    <item name="actionbar_title" type="id"/>
+    <item name="actionbar_item_refresh_progress" type="id"/>
+    <item name="actionbar_item_refresh" type="id"/>
+    <item name="menu_refresh" type="id"/>
+    
+</resources>

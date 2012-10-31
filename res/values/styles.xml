@@ -1,0 +1,50 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="AppTheme" parent="android:Theme.Light">
+        <item name="android:windowTitleSize">@dimen/actionbar_height</item>
+        <item name="android:windowTitleBackgroundStyle">@style/ActionBar</item>
+        <!-- No se requiere sombra      <item name="android:windowContentOverlay">@drawable/actionbar_shadow</item> -->
+
+        <!-- for programmatic instantiation -->
+        <item name="actionbarTitleStyle">@style/ActionBarTitle</item>
+        <item name="actionbarItemStyle">@style/ActionBarItem</item>
+        <item name="actionbarItemHomeStyle">@style/ActionBarHomeItem</item>
+        <item name="actionbarProgressIndicatorStyle">@style/ActionBarProgressIndicator</item>
+    </style>
+
+    <style name="ActionBar">
+        <item name="android:background">@color/dark_gray</item>
+    </style>
+
+    <style name="ActionBarItemBase">
+
+        <!-- layout_width/height must be set in code -->
+        <item name="android:scaleType">center</item>
+        <item name="android:background">@drawable/actionbar_item</item>
+    </style>
+
+    <style name="ActionBarProgressIndicator" parent="android:style/Widget.ProgressBar.Large">
+        <item name="android:indeterminate">true</item>
+    </style>
+
+    <style name="ActionBarTitleBase">
+        <item name="android:id">@id/actionbar_title</item>
+        <!-- layout_width/height/weight must be set in code -->
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textSize">18dp</item>
+        <item name="android:paddingLeft">4dp</item>
+        <item name="android:paddingRight">4dp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">marquee</item>
+    </style>
+
+    <style name="ActionBarTitle" parent="style/ActionBarTitleBase">
+        <item name="android:textColor">@color/light_gray</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="ActionBarItem" parent="style/ActionBarItemBase"></style>
+
+    <style name="ActionBarHomeItem" parent="style/ActionBarItemBase"></style>
+
+</resources>

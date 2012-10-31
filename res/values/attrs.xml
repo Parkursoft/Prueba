@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="AppTheme">
+        <attr name="actionbarTitleStyle" format="reference" />
+        <attr name="actionbarItemStyle" format="reference" />
+        <attr name="actionbarItemHomeStyle" format="reference" />
+        <attr name="actionbarProgressIndicatorStyle" format="reference" />
+    </declare-styleable>
+</resources>
